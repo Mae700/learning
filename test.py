@@ -5,6 +5,8 @@ import pandas as pd
 import numpy as np
 from sklearn.cluster import KMeans
 import matplotlib.pyplot as plt
+from streamlit import utils
+code_hasher = utils.CodeHasher()
 import warnings
 
 warnings.filterwarnings('ignore')
