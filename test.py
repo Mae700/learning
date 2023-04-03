@@ -1,5 +1,5 @@
 import streamlit as st
-from streamlit.hashing import _CodeHasher
+from streamlit.legacy_caching.hashing import _CodeHasher
 from streamlit.report_thread import get_report_ctx
 import pandas as pd
 import numpy as np
